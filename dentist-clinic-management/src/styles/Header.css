@@ -1,0 +1,28 @@
+.header {
+  background: linear-gradient(to right, #2196f3, #673ab7);
+  color: #fff;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo h1 {
+  font-size: 24px;
+}
+
+.nav a {
+  color: #fff;
+  text-decoration: none;
+  margin-left: 20px;
+}
+
+/* Hover effect */
+.nav a:hover {
+  color: #ffeb3b;
+}
+
+/* Click effect */
+.nav a:active {
+  transform: scale(0.95);
+}

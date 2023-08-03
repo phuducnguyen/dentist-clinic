@@ -1,0 +1,37 @@
+.appointments {
+  background: linear-gradient(to right, #4b0082, #8a2be2);
+  color: #fff;
+  padding: 2rem;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+}
+
+.appointments h2 {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.appointment-item {
+  background: #fff;
+  color: #333;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  border-radius: 4px;
+}
+
+.appointment-item p {
+  margin: 0;
+}
+
+.appointment-item .date {
+  font-weight: bold;
+}
+
+.appointment-item .status {
+  color: #008000;
+}
+
+.appointment-item .status.cancelled {
+  color: #ff0000;
+}
