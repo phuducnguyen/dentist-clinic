@@ -28,11 +28,13 @@ function clearErrorMessage() {
 }
 
 function showLogin() {
+  document.getElementById('title').textContent = 'Log In';
   document.getElementById('loginForm').style.display = 'block';
   document.getElementById('logoutBtn').style.display = 'none';
 }
 
 function showLogout() {
+  document.getElementById('title').textContent = 'Log Out';
   document.getElementById('loginForm').style.display = 'none';
   document.getElementById('logoutBtn').style.display = 'block';
 }
